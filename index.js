@@ -33,7 +33,7 @@ const rest = new REST({ version: '10' }).setToken(TOKEN);
       client.user.setActivity('chill with manish', { type: 3 }); // Type 3 is "Watching"
       
       // Set bot's about me with watermark
-      const watermark = "Made with ❤️ by SDX | Active Developer Badge Bot | Get your badge in 24 hours!";
+      const watermark = "Made with ❤️ by SDX | Active Developer Badge Bot";
       
       // Function to ensure watermark stays
       const ensureWatermark = async () => {

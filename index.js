@@ -30,7 +30,7 @@ const rest = new REST({ version: '10' }).setToken(TOKEN);
       console.log(`Logged in as ${client.user.tag}`);
       
       // Set bot's status
-      client.user.setActivity('chill with manish', { type: 3 }); // Type 3 is "Watching"
+      client.user.setActivity('Obsessed with SDX', { type: 3 }); // Type 3 is "UWUWU"
       
       // Set bot's about me with watermark
       const watermark = "Made with ❤️ by SDX | Active Developer Badge Bot";
